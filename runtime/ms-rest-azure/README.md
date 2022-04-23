@@ -1,4 +1,6 @@
-﻿# MS-Rest-Azure
+﻿# Internal-MS-Rest-Azure
+
+(DO NOT USE THIS PACKAGE) This is an internal clone of the deprecated Microsoft ms-rest-azure library with the sole change that the async dependency has been updated to a safer version. This solves a personal need and should not be imported into any project. This package makes no promises to function. It makes no promises about dependency vulnerabilities in Component Governance. If you still use this package, despite explicitly being instructed not to, do not contact the owner of this package to make updates. Those requests will be ignored.
 
 Infrastructure for error handling, tracing, and http client pipeline configuration. Required by nodeJS Azure client libraries, generated using AutoRest.
 
@@ -8,7 +10,7 @@ Infrastructure for error handling, tracing, and http client pipeline configurati
 ## How to Install
 
 ```bash
-npm install ms-rest-azure
+npm install internal-ms-rest-azure
 ```
 
 ## Usage
@@ -48,7 +50,7 @@ Otherwise it is better to use the above mechanism (interactive login).
 ```
 
 ### Non-Interactive Authentication
-If you need to create an automation account for non interactive or scripting scenarios then please take a look at the documentation over [here](https://github.com/Azure/azure-sdk-for-node/blob/master/Documentation/Authentication.md). Once you have created a service principal you can authenticate using the following code snippet.
+If you need to create an automation account for non interactive or scripting scenarios then please take a look at the documentation over [here](https://github.com/WilliamRADFunk/azure-sdk-for-node/blob/master/Documentation/Authentication.md). Once you have created a service principal you can authenticate using the following code snippet.
 
 #### Login with service principal name and secret
 ```javascript

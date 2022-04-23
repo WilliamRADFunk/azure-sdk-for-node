@@ -1,5 +1,7 @@
 # Microsoft Azure SDK for Node.js - Resource Management
 
+(DO NOT USE THIS PACKAGE) This is an internal clone of the deprecated Microsoft ms-rest-azure library with the sole change that the async dependency has been updated to a safer version. This solves a personal need and should not be imported into any project. This package makes no promises to function. It makes no promises about dependency vulnerabilities in Component Governance. If you still use this package, despite explicitly being instructed not to, do not contact the owner of this package to make updates. Those requests will be ignored.
+
 This project provides a Node.js package that makes it easy to manage Azure resources. Right now it supports:
 - **Node.js version: 6.x.x or higher**
 

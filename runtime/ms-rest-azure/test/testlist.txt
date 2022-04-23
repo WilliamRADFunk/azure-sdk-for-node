@@ -1,6 +1,0 @@
-azureServiceClientTests.js
-azureEnvironmentTests.js
-credTests.js
-msiVmTokenCredentialTests.js
-msiAppServiceTokenCredentialTests.js
-cloudErrorTest.js

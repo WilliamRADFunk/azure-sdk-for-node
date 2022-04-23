@@ -1,3 +1,7 @@
+### 3.0.2 (04/22/2022)
+- Change the dependencies of async from static 2.6.0 to ^2.6.4 for issue [issue #5230](https://github.com/Azure/azure-sdk-for-node/issues/5230)  
+- Change to an internal clone of ms-rest-azure to resolve team use of a dead library before migrating to the new libraries.
+
 ### 3.0.1 (11/10/2021)
 - Change the dependencies of adal-node from 0.1.28 to 0.2.2. for issue [issue #5215](https://github.com/Azure/azure-sdk-for-node/issues/5212)  
 - Remove unused dependency on `moment`. For issue [issue #5157](https://github.com/Azure/azure-sdk-for-node/issues/5157)
